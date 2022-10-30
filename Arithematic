@@ -30,6 +30,8 @@ class Operator {
     public void div(int i,int j) {
         double k = (j/ i);
         System.out.println("division is " + k);
+        System.out.println( k);
+        
     }
 
     public void mod(int i, int j) {
