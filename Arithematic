@@ -1,0 +1,58 @@
+package Assignment1.demo;
+
+class Operator {
+
+    public operator() {
+        System.out.println("Arithmetic operators");
+    }
+
+    public operator(int h) {
+        System.out.println(h);
+    }
+
+    public void add(int i, int j) {
+
+        int k = i + j;
+        System.out.println("addition is " + k);
+    }
+
+    public void sub(int i,int j) {
+        int k = i- j;
+        System.out.println("subtraction is " + k);
+
+    }
+
+    public void mul(int i,int j,int k) {
+        int l= i* j*k;
+        System.out.println("multiplication is " + k);
+    }
+
+    public void div(int i,int j) {
+        double k = (j/ i);
+        System.out.println("division is " + k);
+    }
+
+    public void mod(int i, int j) {
+        int k = j % i;
+        System.out.println("modular is " + k);
+
+
+
+    }
+}
+
+public class Arithmetic {
+
+
+        public static void main(String[] args){
+            operator opp=new operator();
+            opp.add(20,30);
+            opp.sub(500,300);
+            opp.mul(5,6,8);
+            opp.div(3,4);
+            opp.mod(100,7);
+
+            operator op=new operator(1000);
+
+        }
+}
