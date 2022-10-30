@@ -37,9 +37,7 @@ class Operator {
     public void mod(int i, int j) {
         int k = j % i;
         System.out.println("modular is " + k);
-
-
-
+        System.out.println("operators id done");
     }
 }
 
